@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="832" height="170" viewBox="0 0 832 170" role="img" aria-labelledby="title description">
+  <title id="title">Strawberry Express</title>
+  <desc id="description">A little delivery robot carries a strawberry, drops it, chases it down, and finally delivers it to a crate. The animation repeats every eighteen seconds.</desc>
+  <style>
+    text { font-family: 'Courier New', Courier, monospace; }
+    .still { display: none; }
+    @media (prefers-reduced-motion: reduce) {
+      .motion { display: none; }
+      .still { display: inline; }
+    }
+  </style>
+  <defs>
+    <g id="berry" shape-rendering="crispEdges">
+      <path d="M-8-7H8V-4H11V5H8V9H5V12H2V14H-2V12H-5V9H-8V5H-11V-4H-8Z" fill="#fb637e" />
+      <path d="M-8-4H-5V5H-2V9H2V12H-2V12H-5V9H-8V5H-11V-4Z" fill="#d84265" />
+      <path d="M-2-14H1V-8H-2Z" fill="#7ee787" />
+      <path d="M-8-11H-4V-8H-1V-11H4V-8H8V-5H4V-3H1V-6H-2V-3H-5V-6H-8Z" fill="#56b870" />
+      <path d="M-5-2H-3V0H-5ZM3-1H5V1H3ZM-2 3H0V5H-2ZM4 5H6V7H4ZM-3 8H-1V10H-3Z" fill="#ffe6a7" />
+      <path d="M5-4H8V2H5Z" fill="#ff91a5" />
+    </g>
+    <g id="bot" shape-rendering="crispEdges">
+      <path d="M-1-54H2V-44H-1Z" fill="#8b949e" />
+      <path d="M-3-57H4V-51H-3Z" fill="#fb637e" />
+      <path d="M-14-44H14V-41H18V-23H14V-20H-14V-23H-18V-41H-14Z" fill="#dce5ee" />
+      <path d="M-18-28H-14V-23H14V-20H-14V-23H-18Z" fill="#a6b5c7" />
+      <path d="M-12-39H12V-26H-12Z" fill="#253449" />
+      <path d="M-8-35H-4V-30H-8ZM4-35H8V-30H4Z" fill="#7ee7cf" />
+      <path d="M-12-19H12V-16H15V-7H11V-3H-11V-7H-15V-16H-12Z" fill="#8d9fb7" />
+      <path d="M-8-16H8V-8H-8Z" fill="#b9c7d8" />
+      <path d="M-3-15H3V-10H1V-8H-1V-10H-3Z" fill="#fb637e" />
+      <path d="M-1-17H1V-14H-1Z" fill="#56b870" />
+      <path d="M-20-18H-15V-8H-20ZM-23-11H-17V-6H-23Z" fill="#b9c7d8" />
+      <path d="M15-18H21V-23H31V-20H24V-14H15Z" fill="#b9c7d8" />
+      <path d="M28-24H33V-19H28Z" fill="#dce5ee" />
+    </g>
+    <g id="feet" shape-rendering="crispEdges">
+      <path d="M-11-4H-4V0H-14V-2H-11ZM4-4H11V-2H14V0H4Z" fill="#dce5ee" />
+    </g>
+  </defs>
+
+  <rect x=".5" y=".5" width="831" height="169" rx="10" fill="#0d1117" stroke="#30363d" />
+  <use xlink:href="#berry" transform="translate(28 28) scale(.48)" />
+  <text x="43" y="32" fill="#c9d1d9" font-size="12" font-weight="700" letter-spacing="1.2">STRAWBERRY EXPRESS</text>
+  <text x="808" y="32" fill="#8b949e" font-size="10" text-anchor="end" letter-spacing="1">HANDLE WITH CARE</text>
+  <path d="M24 133H808" stroke="#30363d" />
+  <path d="M42 142H46M124 142H128M206 142H210M288 142H292M370 142H374M452 142H456M534 142H538M616 142H620" stroke="#30363d" stroke-width="2" />
+  <text x="730" y="153" fill="#8b949e" font-size="9" text-anchor="middle" letter-spacing="1">DROP-OFF</text>
+  <g shape-rendering="crispEdges">
+    <path d="M708 109H752V132H708Z" fill="#473f38" />
+    <path d="M711 112H749V130H711Z" fill="#211e1c" />
+  </g>
+
+  <g class="motion">
+    <g transform="translate(0 132)">
+      <g transform="translate(68 0)">
+        <animateTransform attributeName="transform" type="translate" dur="18s" repeatCount="indefinite" keyTimes="0;.06;.28;.34;.48;.54;.80;.88;.92;.94;1" values="68 0;86 0;310 0;310 0;398 0;398 0;690 0;690 0;690 0;68 0;68 0" />
+        <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;.88;.92;.94;1" values="1;1;0;0;1" />
+        <g>
+          <animateTransform attributeName="transform" type="translate" dur=".4s" repeatCount="indefinite" values="0 0;0 -1;0 0" />
+          <use xlink:href="#bot" />
+          <g transform="translate(26 -37) scale(.85)">
+            <animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;.28;.54;.80;1" values="1;0;1;0;1" />
+            <use xlink:href="#berry" />
+          </g>
+        </g>
+        <g shape-rendering="crispEdges">
+          <g>
+            <animateTransform attributeName="transform" type="translate" dur=".4s" repeatCount="indefinite" values="0 0;0 -2;0 0" />
+            <path d="M-11-4H-4V0H-14V-2H-11Z" fill="#dce5ee" />
+          </g>
+          <g>
+            <animateTransform attributeName="transform" type="translate" dur=".4s" repeatCount="indefinite" values="0 -2;0 0;0 -2" />
+            <path d="M4-4H11V-2H14V0H4Z" fill="#dce5ee" />
+          </g>
+        </g>
+        <g opacity="0" fill="#ffe6a7" shape-rendering="crispEdges">
+          <animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;.30;.37;1" values="0;1;0;0" />
+          <path d="M15-68H18V-59H15ZM15-56H18V-53H15Z" />
+        </g>
+        <g opacity="0" stroke="#8b949e" stroke-width="2" stroke-linecap="round">
+          <animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;.34;.48;1" values="0;1;0;0" />
+          <path d="M-42-25H-30M-47-16H-33M-39-7H-29" />
+        </g>
+      </g>
+    </g>
+
+    <g opacity="0">
+      <animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;.28;.54;1" values="0;1;0;0" />
+      <g transform="translate(336 95)">
+        <animateTransform attributeName="transform" type="translate" dur="18s" repeatCount="indefinite" keyTimes="0;.28;.30;.32;.36;.42;.48;.50;.54;1" values="336 95;336 95;354 120;372 107;400 120;430 120;430 120;424 105;424 95;424 95" />
+        <g>
+          <animateTransform attributeName="transform" type="rotate" dur="18s" repeatCount="indefinite" keyTimes="0;.28;.30;.32;.36;.42;.48;.54;1" values="0;0;80;155;265;360;360;360;360" />
+          <use xlink:href="#berry" transform="scale(.85)" />
+        </g>
+      </g>
+    </g>
+
+    <g opacity="0">
+      <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;.799;.80;.88;.94;1" values="0;0;1;1;0;0" />
+      <g transform="translate(716 95)">
+        <animateTransform attributeName="transform" type="translate" dur="18s" repeatCount="indefinite" keyTimes="0;.80;.83;1" values="716 95;716 95;730 111;730 111" />
+        <use xlink:href="#berry" transform="scale(.85)" />
+      </g>
+    </g>
+    <g opacity="0" fill="#ffe6a7" shape-rendering="crispEdges">
+      <animate attributeName="opacity" dur="18s" repeatCount="indefinite" keyTimes="0;.83;.85;.88;.90;1" values="0;0;1;1;0;0" />
+      <path d="M730 77H732V81H736V83H732V87H730V83H726V81H730ZM750 91H752V94H755V96H752V99H750V96H747V94H750Z" />
+    </g>
+  </g>
+
+  <g class="still" transform="translate(110 132)">
+    <use xlink:href="#bot" />
+    <use xlink:href="#feet" />
+    <use xlink:href="#berry" transform="translate(26 -37) scale(.85)" />
+  </g>
+
+  <g shape-rendering="crispEdges">
+    <path d="M708 116H752V132H708Z" fill="#a98b70" />
+    <path d="M708 116H752V119H708ZM708 129H752V132H708Z" fill="#715e4d" />
+    <path d="M714 120H716V128H714ZM744 120H746V128H744Z" fill="#c5aa8f" />
+    <use xlink:href="#berry" transform="translate(730 124) scale(.22)" />
+  </g>
+</svg>

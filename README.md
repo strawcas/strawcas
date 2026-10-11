@@ -10,7 +10,7 @@ Curious. Always learning. Always building.
 
 ### Tech I work with
 
-<img src="https://go-skill-icons.vercel.app/api/icons?i=nextjs,react,typescript,javascript,tailwindcss,nodejs,expressjs,supabase,postgresql,mongodb,mysql,docker,git,vercel,python,php,flutter,dart,cs,html,css,socketio,codeigniter,jquery,mongoose,mariadb,appwrite,aws,cloudflare,arcjet&amp;theme=dark&amp;perline=15" alt="Tech stack: Next.js, React, TypeScript, JavaScript, Tailwind CSS, Node.js, Express.js, Supabase, PostgreSQL, MongoDB, MySQL, Docker, Git, Vercel, Python, PHP, Flutter, Dart, C#, HTML, CSS, Socket.IO, CodeIgniter, jQuery, Mongoose, MariaDB, Appwrite, Cloudflare, and Arcjet" />
+<img src="https://go-skill-icons.vercel.app/api/icons?i=nextjs,react,typescript,javascript,tailwindcss,nodejs,expressjs,supabase,postgresql,mongodb,mysql,docker,git,vercel,python,php,flutter,dart,cs,html,css,socketio,codeigniter,jquery,mongoose,mariadb,appwrite,cloudflare,arcjet&amp;theme=dark&amp;perline=15" alt="Tech stack: Next.js, React, TypeScript, JavaScript, Tailwind CSS, Node.js, Express.js, Supabase, PostgreSQL, MongoDB, MySQL, Docker, Git, Vercel, Python, PHP, Flutter, Dart, C#, HTML, CSS, Socket.IO, CodeIgniter, jQuery, Mongoose, MariaDB, Appwrite, Cloudflare, and Arcjet" />
 
 <br><br>
 

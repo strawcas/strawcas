@@ -10,7 +10,7 @@ Curious. Always learning. Always building.
 
 ### Tech I work with
 
-<img src="https://go-skill-icons.vercel.app/api/icons?i=nextjs,react,typescript,javascript,tailwindcss,nodejs,expressjs,supabase,postgresql,mongodb,mysql,docker,git,vercel,python,php,flutter,dart,cs,html,css,socketio,codeigniter,jquery,mongoose,mariadb,appwrite,cloudflare,arcjet,fastapi,pydantic,sqlalchemy,sqlite,qdrant,ollama,langchain,mcp,npm,vite,githubactions,figma,pytest,vitest,playwright&amp;theme=dark&amp;perline=15" alt="Tech stack: Next.js, React, TypeScript, JavaScript, Tailwind CSS, Node.js, Express.js, Supabase, PostgreSQL, MongoDB, MySQL, Docker, Git, Vercel, Python, PHP, Flutter, Dart, C#, HTML, CSS, Socket.IO, CodeIgniter, jQuery, Mongoose, MariaDB, Appwrite, Cloudflare, Arcjet, FastAPI, Pydantic, SQLAlchemy Core, SQLite, Qdrant, Ollama, LangChain, MCP, npm, Vite, GitHub Actions, Figma, pytest, Vitest, and Playwright" />
+<img src="assets/tech-stack.svg" alt="Tech stack: Next.js, React, TypeScript, JavaScript, Tailwind CSS, Node.js, Express.js, Supabase, PostgreSQL, MongoDB, MySQL, Docker, Git, Vercel, Python, PHP, Flutter, Dart, C#, HTML, CSS, Socket.IO, CodeIgniter, jQuery, Mongoose, MariaDB, Appwrite, Cloudflare, Arcjet, FastAPI, Pydantic, SQLAlchemy Core, SQLite, Qdrant, Ollama, LangChain, MCP, npm, Vite, GitHub Actions, Figma, pytest, Vitest, and Playwright" />
 
 I also work with OpenRouter, LangGraph, Langfuse, RAG, Deep Agents, Claude Agent SDK, uv, and Codex.
 

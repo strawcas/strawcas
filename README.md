@@ -10,7 +10,7 @@ Curious. Always learning. Always building.
 
 ### Tech I work with
 
-<img src="assets/tech-stack.svg" alt="Tech stack: Next.js, React, TypeScript, JavaScript, Tailwind CSS, Node.js, Express.js, Supabase, PostgreSQL, MongoDB, MySQL, Docker, Git, Vercel, Python, PHP, Flutter, Dart, C#, HTML, CSS, Socket.IO, CodeIgniter, jQuery, Mongoose, MariaDB, Appwrite, Cloudflare, Arcjet, FastAPI, Pydantic, SQLAlchemy Core, SQLite, Qdrant, Ollama, LangChain, MCP, npm, Vite, GitHub Actions, Figma, pytest, Vitest, and Playwright" />
+<img src="assets/tech-stack.svg" alt="Tech stack: Next.js, React, TypeScript, JavaScript, Tailwind CSS, Node.js, Express.js, Supabase, PostgreSQL, MongoDB, MySQL, Docker, Git, Vercel, Python, PHP, Flutter, Dart, C#, HTML, CSS, Socket.IO, CodeIgniter, jQuery, Mongoose, MariaDB, Appwrite, AWS, Cloudflare, Arcjet, FastAPI, Pydantic, SQLAlchemy Core, SQLite, Qdrant, Ollama, LangChain, MCP, npm, Vite, GitHub Actions, Figma, pytest, Vitest, and Playwright" />
 
 I also work with OpenRouter, LangGraph, Langfuse, RAG, Deep Agents, Claude Agent SDK, uv, and Codex.
 
